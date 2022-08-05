@@ -12,6 +12,8 @@
    <context:component-scan base-package="com.gcu" />
    <mvc:annotation-driven />
    
+   <bean id="HandlerMapping" class = "org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"/>
+   
    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
       <property name="prefix" value="/WEB-INF/pages/" />
       <property name="suffix" value=".jsp" />

@@ -16,10 +16,12 @@
       </init-param>
       <load-on-startup>1</load-on-startup>
    	</servlet>
+   	
    	<servlet-mapping>
       <servlet-name>SpringWeb</servlet-name>
       <url-pattern>/</url-pattern>
    	</servlet-mapping>
+   
 	<context-param>
 	   <param-name>contextConfigLocation</param-name>
 	   <param-value>/WEB-INF/applicationConfiguration.xml</param-value>
